@@ -1,5 +1,4 @@
 
-
 object MergeSortSolution {
   def merge(first:List[Int],second:List[Int]):List[Int]={
     (first,second) match {

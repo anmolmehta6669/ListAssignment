@@ -1,3 +1,4 @@
+import scala.collection.mutable.ListBuffer
 class Queue[A]{
   val list=new ListBuffer[A]
   def enqueue(data:A): Unit =
